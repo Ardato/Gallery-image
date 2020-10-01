@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import Search from "./components/Search";
-import CharacterGrid from "./components/CharacterGrid";
+import GalleryGrid from "./components/GalleryGrid";
 import Header from "./components/Header";
 
 import "./App.css";
@@ -59,7 +59,7 @@ function App() {
       <button className="btn" onClick={fetchMusicGallery}>
         Music
       </button>
-      <CharacterGrid isLoading={isLoading} items={items} />
+      <GalleryGrid isLoading={isLoading} items={items} />
     </div>
   );
 }

@@ -1,13 +1,13 @@
 import React from 'react'
-import CharacterItem from './CharacterItem'
+import GalleryItem from './GalleryItem'
 import Spinner from './Spinner'
 
 
-function CharacterGrid({isLoading,items}) {
+function GalleryGrid({isLoading,items}) {
     
     return    isLoading ? (<Spinner/>) : (<section className="cards">
             {items.map(item=>(
-                <CharacterItem key={item.id} item ={item}></CharacterItem>
+                <GalleryItem key={item.id} item ={item}></GalleryItem>
             ))}
         </section>)
     
@@ -15,4 +15,4 @@ function CharacterGrid({isLoading,items}) {
     
 }
 
-export default CharacterGrid
+export default GalleryGrid

@@ -1,6 +1,6 @@
 import React from 'react'
 
-function CharacterItem({item}) {
+function GalleryItem({item}) {
    // console.log(item);
     return (
         <div className='card'>
@@ -21,4 +21,4 @@ function CharacterItem({item}) {
     )
 }
 
-export default CharacterItem
+export default GalleryItem
