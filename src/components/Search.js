@@ -1,6 +1,9 @@
 import React, { useState } from "react";
+import { useContext } from "react";
+import { GlobalState } from "../context/GlobalState";
 
-const Search = ({ getQuery }) => {
+const Search = () => {
+  const {getQuery} = useContext(GlobalState)
   const [text, setText] = useState("");
   const onChange = (query) => {
     setText(query);

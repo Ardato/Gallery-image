@@ -3,9 +3,8 @@ import logo from "../img/our-gallery.png"
 
 function Header() {
     return (
-        <header className="center">
-        <img src={logo} alt=""/> 
-       
+        <header>
+        <img src={logo} alt=""/>
         </header>
     )
 }
