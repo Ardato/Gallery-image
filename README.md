@@ -14,6 +14,7 @@ Link: https://ardato.github.io/gallery-images/
 
 ## functionality 
 - Filter by category
+- Search by name
  
 
 
