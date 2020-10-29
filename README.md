@@ -11,6 +11,9 @@ Link: https://ardato.github.io/gallery-images/
 - JavaScript
 - React with Hooks 
 - api Pixabay 
+
+## functionality 
+- Filter by category
  
 
 
